@@ -4,6 +4,7 @@ import TodoList from './TodoList';
 import AddNewTodoForm from './AddNewTodoForm';
 import { getTodoItemsFromLocalStorage, saveTodoItemsToLocalStorage } from './helpers';
 import './Todo.css';
+
 const Todo = () => {
 
    // Initialize todoItems state with the JSON string stored under todo key in localStorage, if it's falsy, use an empty array instead
